@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.app {
+  margin-left: 30px;
+}
+.header{
+  margin-left: 40px;
+}
+
+.my-button {
+  margin: 5px;
+}
+
+.editor {
+  display: flex;
+  flex-grow: 1;
+  justify-content: left;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  min-width: 500px;
+  margin: 10px;
+}
+
+.article .name {
+  margin-bottom: 5px; 
+}
+
+.article .content {
+  height: 500px;
+}
+
+.article-list {
+  width: 150px;
+  margin-top: 5px;
+}
+
+.article-list-item {
+  margin: 5px;
+  padding: 10px;
+  border: 1px;
+  border-style: solid;
+  border-color: black;
+}
+
+.article-list-item.selected{
+  background-color: aqua;
+}
